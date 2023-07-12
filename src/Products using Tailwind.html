@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Products of Ecommerce Website</title>
+        
+        <script src="https://kit.fontawesome.com/7f7b6f90d4.js" crossorigin="anonymous"></script>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+        
+        <link href="../src/css/output.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="head-section py-4" id="products">
+            <header class="bg-white mt-6">
+                <nav class="flex justify-between items-center w-[80%] mx-auto">
+                     <div>
+                        <img src="/src/site-assets/img/logo.png" class="w-24">
+                    </div>
+                    <div id="nav-links" class=" md:static absolute bg-white md:min-h-fit min-h-[60vw] left-0 top-[-100%] md:w-auto w-full items-center md:items-left flex px-5">
+                        <ul class="flex flex-col  md:flex-row items-left md:items-center md:gap-[4vw] gap-8">
+                            <li>
+                                <a href="Red Store using Tailwindcss.html" class="hover:text-gray-700">Home</a>
+                            </li>
+
+                            <li>
+                                <a href="#products" class="hover:text-gray-700">Products</a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="hover:text-gray-700">About</a>
+                            </li>
+
+
+                            <li>
+                                <a href="#" class="hover:text-gray-700">Contact</a>
+                            </li>
+
+                            <li>
+                                <a href="Accounts using Tailwind.html" class="hover:text-gray-700">Account</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="flex gap-6">
+                        <a href="Cart using Tailwindcs.html" class="hover:text-gray-700"><i class="fa-sharp fa-solid fa-bag-shopping"></i></a>
+                        <button name="menu" onclick="onToggleMenu(this)">
+                            <i class="fa-solid fa-bars text-xl cursor-pointer md:hidden md hydrated" aria-label="menu"></i>
+                        </button>
+                    </div>
+                </nav>
+            </header>
+
+            <div class="all-products py-12 w-10/12 mx-auto" id="products">
+                <div class="">
+                    <div class="small-container flex flex-col sm:flex-row justify-between gap-y-3 mx-5 sm:mx-10 ">
+                        <div class="statement">
+                            <h2>All Products</h2>
+                        </div>
+                        <div class="sort border-orange border-2 px-4 py-2 rounded-md cursor-pointer">
+                            <select class="cursor-pointer">
+                                <option selected class="w-64">Default Sorting</option>
+                                <option>Sort by Price</option>
+                                <option>Sort by Popularity</option>
+                                <option>Sort by rating</option>
+                                <option>Sort by Sale</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="grid lg:grid-cols-4 my-12 sm:grid-cols-2 items-center w-full content-center mx-7 sm:mx-5 gap-6">
+                        <div class="product1">
+                            <div class="product-img">
+                            <img src="/src/site-assets/img/product-1.jpg" class="w-4/5">
+                            </div>
+    
+                            <div class="product1-description">
+                                <p class="font-semibold my-2">Red Printed T-Shirt</p>
+                                <p class="text-orange">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </p>
+                                <p>$50.00</p>
+                            </div>
+                        </div>
+    
+                        <div class="product2">
+                            <div class="product-img">
+                                <img src="/src/site-assets/img/product-2.jpg" class="w-4/5">
+                                </div>
+        
+                                <div class="product1-description">
+                                    <p class="font-semibold my-2">Red Printed T-Shirt</p>
+                                    <p class="text-orange">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                    </p>
+                                    <p>$50.00</p>
+                                </div>
+                        </div>
+    
+                        <div class="product3">
+                            <div class="product-img">
+                                <img src="/src/site-assets/img/product-3.jpg" class="w-4/5">
+                                </div>
+        
+                                <div class="product1-description">
+                                    <p class="font-semibold my-2">Red Printed T-Shirt</p>
+                                    <p class="text-orange">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star-half-stroke"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                    </p>
+                                    <p>$50.00</p>
+                                </div>
+                        </div>
+    
+                        <div class="product4">
+                            <div class="product-img">
+                                <img src="/src/site-assets/img/product-4.jpg" class="w-4/5">
+                                </div>
+        
+                                <div class="product1-description">
+                                    <p class="font-semibold my-2">Red Printed T-Shirt</p>
+                                    <p class="text-orange">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star-half-stroke"></i>
+                                    </p>
+                                    <p>$50.00</p>
+                                </div>
+                        </div>
+
+                        <div class="product5">
+                            <div class="product-img">
+                                <img src="/src/site-assets/img/product-5.jpg" class="w-4/5">
+                                </div>
+        
+                                <div class="product1-description">
+                                    <p class="font-semibold my-2">Red Printed T-Shirt</p>
+                                    <p class="text-orange">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                    </p>
+                                    <p>$50.00</p>
+                                </div>
+                        </div>
+    
+                        <div class="product6">
+                            <div class="product-img">
+                                <img src="/src/site-assets/img/product-6.jpg" class="w-4/5">
+                                </div>
+        
+                                <div class="product1-description">
+                                    <p class="font-semibold my-2">Red Printed T-Shirt</p>
+                                    <p class="text-orange">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                    </p>
+                                    <p>$50.00</p>
+                                </div>
+                        </div>
+    
+                        <div class="product7">
+                            <div class="product-img">
+                                <img src="/src/site-assets/img/product-7.jpg" class="w-4/5">
+                                </div>
+        
+                                <div class="product1-description">
+                                    <p class="font-semibold my-2">Red Printed T-Shirt</p>
+                                    <p class="text-orange">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star-half-stroke"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                    </p>
+                                    <p>$50.00</p>
+                                </div>
+                        </div>
+    
+                        <div class="product8">
+                            <div class="product-img">
+                                <img src="/src/site-assets/img/product-8.jpg" class="w-4/5">
+                                </div>
+        
+                                <div class="product1-description">
+                                    <p class="font-semibold my-2">Red Printed T-Shirt</p>
+                                    <p class="text-orange">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star-half-stroke"></i>
+                                    </p>
+                                    <p >$50.00</p>
+                                </div>
+                        </div>
+                    
+                        <div class="product9">
+                            <div class="product-img">
+                                <img src="/src/site-assets/img/product-9.jpg" class="w-4/5">
+                                </div>
+        
+                                <div class="product1-description">
+                                    <p class="font-semibold my-2">Red Printed T-Shirt</p>
+                                    <p class="text-orange">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                    </p>
+                                    <p>$50.00</p>
+                                </div>
+                        </div>
+    
+                        <div class="product10">
+                            <div class="product-img">
+                                <img src="/src/site-assets/img/product-10.jpg" class="w-4/5">
+                                </div>
+        
+                                <div class="product1-description">
+                                    <p class="font-semibold my-2">Red Printed T-Shirt</p>
+                                    <p class="text-orange">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                    </p>
+                                    <p>$50.00</p>
+                                </div>
+                        </div>
+    
+                        <div class="product11">
+                            <div class="product-img">
+                                <img src="/src/site-assets/img/product-11.jpg" class="w-4/5">
+                                </div>
+        
+                                <div class="product1-description">
+                                    <p class="font-semibold my-2">Red Printed T-Shirt</p>
+                                    <p class="text-orange">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star-half-stroke"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                    </p>
+                                    <p>$50.00</p>
+                                </div>
+                        </div>
+    
+                        <div class="product12">
+                            <div class="product-img">
+                                <img src="/src/site-assets/img/product-12.jpg" class="w-4/5">
+                                </div>
+        
+                                <div class="product1-description">
+                                    <p class="font-semibold my-2">Red Printed T-Shirt</p>
+                                    <p class="text-orange">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star-half-stroke "></i>
+                                    </p>
+                                    <p>$50.00</p>
+                                </div>
+                        </div>
+                    
+                    </div>
+                    
+                </div>
+            </div>
+    
+            <div class="more-pages md:w-1/6 mx-12 sm:mx-auto py-12">
+                <div class="">
+                    <ul class="inline-flex">
+                        <li><a class="px-3 py-2 leading-tight ml-1 text-black border-2 border-red-600  bg-white rounded-l-lg hover:bg-gray-100" href="#">1</a></li>
+                        <li><a class="px-3 py-2 leading-tight ml-1 text-black border-2 border-red-600 bg-white  hover:bg-gray-100" href="#">2</a></li>
+                        <li ><a class="px-3 py-2 leading-tight ml-1 text-black border-2 border-red-600 bg-white  hover:bg-gray-100" href="#">3</a></li>
+                        <li ><a class="px-3 py-2 leading-tight ml-1 text-black border-2 border-red-600 bg-white  hover:bg-gray-100" href="#">4</a></li>
+                        <li ><a class="px-3 py-2 leading-tight ml-1 text-black border-2 border-red-600 bg-white rounded-r-lg hover:bg-gray-100" href="#"><i class="fa-solid fa-arrow-right-long "></i></a></li>
+                    </ul>
+                </div>
+            </div>
+    
+    
+            <div class="footer bg-black text-white  py-16">
+                <footer class=" mx-10 sm:mx-32 ">
+                    <div class="grid lg:grid-cols-4 sm:grid-cols-2 items-center ">
+                        <div class="foot1 sm:w-3/4">
+                            <p><strong>Download our App</strong></p>
+                            
+                            Download App for Android and ios mobile phone.
+                            <div class="apps flex mt-3">
+                                <div class="play-store mr-1">
+                                    <img src="/src/site-assets/img/play-store.png" class="w-24">
+                                </div>
+                                <div class="app-store">
+                                    <img src="/src/site-assets/img/app-store.png" class="w-24">
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="foot2 sm:text-center sm:w-3/4">
+                            <img src="/src/site-assets/img/logo.png"  class="w-32 mx-auto">
+                            <p>Our Purpose Is To Sustainably Make th Pleasure and Benefits of Sports Accessible to the Many.</p>
+                        </div>
+    
+                        <div class="foot3 sm:text-center sm:w-3/4">
+                            <p class="text-2xl">Useful Links</p>
+                            <div class="flex flex-col">
+                                <a href="#">Coupons</a>
+                                <a href="#">Blog Posts</a>
+                                <a href="#">Returns Policy</a>
+                                <a href="#">Join Affiliate</a>
+    
+                            </div>
+                        </div>
+    
+                        <div class="foot4 sm:text-center sm:w-3/4 mb-9">
+                            <p class="text-2xl">Follow Us</p>
+                            <div class="flex flex-col">
+                                <a href="#">Facebook</a>
+                                <a href="#">Twitter</a>
+                                <a href="#">Instagram</a>
+                                <a href="#">Youtube</a>
+    
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <p class="text-center flex justify-center align-bottom mt-4">Copyright 2020 - Rahul Kumar Sinha</p>
+                </footer>
+            </div>
+
+            <script src="index.js"> </script>
+    
+    
+    </body>
+</html>

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cart of Ecommerce Website</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+        <script src="https://kit.fontawesome.com/7f7b6f90d4.js" crossorigin="anonymous"></script>
+        <link href="../src/css/output.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="head-section py-4" id="products">
+            <header class="bg-white mt-6">
+                <nav class="flex justify-between items-center w-[83%] mx-auto">
+                     <div>
+                        <img src="/src/site-assets/img/logo.png" class="w-24">
+                    </div>
+                    <div id="nav-links" class=" md:static absolute bg-white md:min-h-fit min-h-[60vw] left-0 top-[-100%] md:w-auto w-full items-center flex px-5">
+                        <ul class="flex flex-col  md:flex-row  items-left md:gap-[4vw] py-5 gap-8">
+                            <li>
+                                <a href="Red Store using Tailwindcss.html" class="hover:text-gray-700">Home</a>
+                            </li>
+
+                            <li>
+                                <a href="Products using Tailwind.html" class="hover:text-gray-700">Products</a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="hover:text-gray-700">About</a>
+                            </li>
+
+
+                            <li>
+                                <a href="#" class="hover:text-gray-700">Contact</a>
+                            </li>
+
+                            <li>
+                                <a href="Accounts using Tailwind.html" class="hover:text-gray-700">Account</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="flex gap-6">
+                        <a href="#cart" class="hover:text-gray-700"><i class="fa-sharp fa-solid fa-bag-shopping"></i></a>
+                        <button name="menu" onclick="onToggleMenu(this)">
+                            <i class="fa-solid fa-bars text-xl cursor-pointer md:hidden md hydrated" aria-label="menu"></i>
+                        </button>
+                    </div>
+                </nav>
+            </header>
+        </div>
+
+            <div id="cart" class="cart">
+                <div class=" mt-10">
+                    <table class="w-10/12 mx-auto">
+                        <thead class=" text-white text-left bg-orange ">
+                            <tr>
+                                <th class="w-3/5  py-4 px-3">Products</th>
+                                <th class="w-1/3 px-3">Quantity</th>
+                                <th class="w-1/3 px-3">Subtotal</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="cart-item flex flex-col sm:flex-row mt-3">
+                                    <img src="/src/site-assets/img/product-1.jpg" class=" w-12"  >
+                                    <p class="sm:ml-4">Red Printed T-Shirt<br>
+                                       $50.00 <br>
+                                    <span class="text-red-500">Remove</span></p>
+                                </td>
+                                <td>
+                                <input type="number" value="1"  class="w-8 border mx-3">
+                                </td>
+                                <td class="price mx-3">$50.00</td>
+                            </tr>
+                            <tr>
+                                <td class="cart-item flex flex-col sm:flex-row  mt-5">
+                                       <img src="/src/site-assets/img/product-2.jpg" class="w-12">
+                                       <p class="sm:ml-4">Red Printed T-Shirt<br>
+                                          $75.00<br>
+                                       <span class="text-red-500">Remove</span></p>
+                                   </td>
+                                   <td><input type="number" value="1" class="w-8 border mx-3"></td>
+                                   <td  class="price mx-3">$75.00</td>
+                           </tr>
+   
+                           <tr>
+                                   <td class="cart-item flex flex-col sm:flex-row mt-5">
+                                       <img src="/src/site-assets/img/product-3.jpg" class="w-12">
+                                       <p class="sm:ml-4">Red Printed T-Shirt<br>
+                                          $75.00<br>
+                                       <span class="text-red-500">Remove</span></p>
+                                   </td>
+                                   <td><input type="number" value="1"  class="w-8 border mx-3"></td>
+                                   <td  class="price mx-3">$75.00</td>
+                                   
+                           </tr>  
+                           
+                        </tbody>
+                    </table>
+                    <div class="total-price">
+                        <div class="">
+                        <table class="cart-total flex md:justify-end mr-40  my-6">
+                            <tbody class="">
+                                <tr id="Subtotal" class="flex w-56 mx-12 sm:w-96 justify-between">
+                                    <td class="">Subtotal</td>
+                                    <td>$200</td>
+                                </tr>
+    
+                                <tr class="flex w-56  mx-auto sm:w-96 justify-between"  >
+                                    <td class="">Tax</td>
+                                    <td>$35</td>
+                                </tr>
+    
+                                <tr class="flex w-56  mx-auto sm:w-96 justify-between">
+                                    <td class="">Total</td>
+                                    <td>$235</td>
+                                </tr>
+                            </tbody>
+
+                        </table>
+                    </div>
+                    </div>
+                   
+
+                </div>
+            </div>
+
+            <div class="footer bg-black text-white px-10">
+                <div class="footer bg-black text-white mt-10  py-16">
+                    <footer class=" mx-10 sm:mx-20">
+                        <div class="grid lg:grid-cols-4 sm:grid-cols-2 items-center ">
+                            <div class="foot1 sm:w-3/4">
+                                <p><strong>Download our App</strong></p>
+                                
+                                Download App for Android and ios mobile phone.
+                                <div class="apps flex mt-3">
+                                    <div class="play-store mr-1">
+                                        <img src="/src/site-assets/img/play-store.png" class="w-24">
+                                    </div>
+                                    <div class="app-store">
+                                        <img src="/src/site-assets/img/app-store.png" class="w-24">
+                                    </div>
+                                </div>
+                            </div>
+        
+                            <div class="foot2 sm:text-center sm:w-3/4">
+                                <img src="/src/site-assets/img/logo.png"  class="w-32 mx-auto">
+                                <p>Our Purpose Is To Sustainably Make th Pleasure and Benefits of Sports Accessible to the Many.</p>
+                            </div>
+        
+                            <div class="foot3 sm:text-center sm:w-3/4">
+                                <p class="text-2xl">Useful Links</p>
+                                <div class="flex flex-col">
+                                    <a href="#">Coupons</a>
+                                    <a href="#">Blog Posts</a>
+                                    <a href="#">Returns Policy</a>
+                                    <a href="#">Join Affiliate</a>
+        
+                                </div>
+                            </div>
+        
+                            <div class="foot4 sm:text-center sm:w-3/4 mb-6">
+                                <p class="text-2xl">Follow Us</p>
+                                <div class="flex flex-col">
+                                    <a href="#">Facebook</a>
+                                    <a href="#">Twitter</a>
+                                    <a href="#">Instagram</a>
+                                    <a href="#">Youtube</a>
+        
+                                </div>
+                            </div>
+                        </div>
+                        <hr>
+                        <p class="text-center mt-6">Copyright 2020 - Rahul Kumar Sinha</p>
+                    </footer>
+            </div>
+            <script src="index.js"> </script>
+
+    </body>
+</html>

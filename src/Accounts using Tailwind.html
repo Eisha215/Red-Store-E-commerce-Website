@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Account of Ecommerce Website</title>
+          <link href="/src/site-assets/Red Store-Style.css" rel="stylesheet" /> 
+      
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+        <script src="https://kit.fontawesome.com/7f7b6f90d4.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;700&display=swap" rel="stylesheet">
+       
+        <link href="../src/css/output.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="head-section py-4" id="products">
+            <header class="bg-white mt-6">
+                <nav class="flex justify-between items-center w-[85%] mx-auto">
+                     <div>
+                        <img src="/src/site-assets/img/logo.png" class="w-24">
+                    </div>
+                    <div id="nav-links" class=" md:static absolute bg-white md:min-h-fit z-20 min-h-[60vw] left-0 top-[-90%] md:w-auto w-full items-center md:items-left flex px-5">
+                        <ul class="flex flex-col  md:flex-row items-start  md:items-center md:gap-[4vw] py-5 gap-8">
+                            <li>
+                                <a href="Red Store using Tailwindcss.html" class="hover:text-gray-700">Home</a>
+                            </li>
+
+                            <li>
+                                <a href="Products using Tailwind.html" class="hover:text-gray-700">Products</a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="hover:text-gray-700">About</a>
+                            </li>
+
+
+                            <li>
+                                <a href="#" class="hover:text-gray-700">Contact</a>
+                            </li>
+
+                            <li>
+                                <a href="#account" class="hover:text-gray-700">Account</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="flex gap-6">
+                        <a href="Cart using Tailwindcs.html" class="hover:text-gray-700"><i class="fa-sharp fa-solid fa-bag-shopping"></i></a>
+                        <button name="menu" onclick="onToggleMenu(this)">
+                            <i class="fa-solid fa-bars text-xl cursor-pointer md:hidden md hydrated" aria-label="menu"></i>
+                        </button>
+                    </div>
+                </nav>
+            </header>
+        </div>
+        <div class="accounts bg-baby-pink py-32" id="account">
+            <div class="px-24">
+                <div class="grid md:grid-cols-2 relative  gap-12 items-center justify-center ">
+                    <div class="image ">
+                        <img src="/src/site-assets/img/intro.png" class="  z-10">
+                    </div>   
+                    <div class="account-form bg-white px-3 shadow-lg py-12 rounded-lg">
+                            <div class="form-btn font-bold text-center py-4 ">
+                                <span onclick="Login()" class="pr-4 text-gray-700 cursor-pointer">Login</span>
+                                <span onclick="Register()" class="text-gray-700 cursor-pointer" >Register</span>
+                                <hr id="indicator" class="translate-x-56 duration-200 hidden xl:block" >
+                            </div>
+                            
+                            <form id="Login-Form" class=" translate-x-0 transition-all duration-700 w-2/3 mx-auto bg-white ">
+                                <input type="text" placeholder="Username" class="px-6 py-4 w-full mx-1 mt-3 border">
+                                <input type="password" placeholder="Password" class="px-6  w-full py-4 mx-1 mt-3 border" >
+                                <button class="text-center flex justify-center w-2/3 mx-auto text-white rounded-full items-center px-5 py-2 mt-4 btn bg-orange">Login</button>
+                                <a href="#" class="flex justify-center items-center mt-3">Forget Password</a>
+                            </form>
+                            <form id="Register-Form" class="translate-x-1/2  transition-all duration-700 w-2/3 mx-auto hidden bg-white">
+                                <input type="text" placeholder="Username" class="px-6 py-4 mt-4 w-full mx-1 border">
+                                <input type="email" placeholder="Email" class="px-6 py-4 mt-4  w-full  mx-1  border">
+                                <input type="password" placeholder="Password" class="px-6 py-4 mt-4 w-full  mx-1  border">
+                                <button class="text-center flex justify-center  w-2/3 mx-auto   btn  text-white rounded-full items-center px-5 py-2 mt-4 btn bg-orange">Register</button>
+                            </form>
+                           
+                    </div>
+                
+                     
+                </div>
+            </div>
+        </div>
+
+        <div class="footer bg-black text-white px-10">
+            <footer class=" mx-10 sm:mx-20">
+                <div class="grid lg:grid-cols-4 sm:grid-cols-2 items-center ">
+                    <div class="foot1 sm:w-3/4">
+                        <p><strong>Download our App</strong></p>
+                        
+                        Download App for Android and ios mobile phone.
+                        <div class="apps flex mt-3">
+                            <div class="play-store mr-1">
+                                <img src="/src/site-assets/img/play-store.png" class="w-24">
+                            </div>
+                            <div class="app-store">
+                                <img src="/src/site-assets/img/app-store.png" class="w-24">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="foot2 sm:text-center sm:w-3/4">
+                        <img src="/src/site-assets/img/logo.png"  class="w-32 mx-auto">
+                        <p>Our Purpose Is To Sustainably Make th Pleasure and Benefits of Sports Accessible to the Many.</p>
+                    </div>
+
+                    <div class="foot3 sm:text-center sm:w-3/4">
+                        <p class="text-2xl">Useful Links</p>
+                        <div class="flex flex-col">
+                            <a href="#">Coupons</a>
+                            <a href="#">Blog Posts</a>
+                            <a href="#">Returns Policy</a>
+                            <a href="#">Join Affiliate</a>
+
+                        </div>
+                    </div>
+
+                    <div class="foot4 sm:text-center sm:w-3/4 mb-6">
+                        <p class="text-2xl">Follow Us</p>
+                        <div class="flex flex-col">
+                            <a href="#">Facebook</a>
+                            <a href="#">Twitter</a>
+                            <a href="#">Instagram</a>
+                            <a href="#">Youtube</a>
+
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <p class="text-center mt-6">Copyright 2020 - Rahul Kumar Sinha</p>
+            </footer>
+        </div>
+
+        <script>
+           
+
+            
+        </script>
+    <script src="index.js"> </script>
+    <script src="transform.js"></script>
+
+    </body>
+</html>
